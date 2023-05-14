@@ -4,7 +4,7 @@ from tkinter import *
 
 bintana = Tk()
 
-def pindotMomits():
+ def pindotMomits():
 
     # to show text, use label widget 
     sex = Label(bintana,
@@ -13,13 +13,13 @@ def pindotMomits():
     sex2 = Label(bintana,
              text="Masarap ba ang missionary?")
 
-    #  yung grid system is relative to each other so yep
-    # need mag karoon ng 3rd label para mapunta sa 3d colum yung want natin
-    sex.grid(row=0,
-             column=0)
+#  yung grid system is relative to each other so yep
+# need mag karoon ng 3rd label para mapunta sa 3d colum yung want natin
+sex.grid(row=0,
+         column=0)
 
-    sex2.grid(row=1,
-             column=2)
+sex2.grid(row=1,
+         column=2)
 
 
 # Buton moments
@@ -27,8 +27,7 @@ def pindotMomits():
 pindutan = Button(bintana, 
                   text= "Touch Me More",
                   padx=50,
-                  pady=50,
-                  command=pindotMomits) 
+                  pady=50)
 
 pindutan.grid(row= 2,
               column=3)

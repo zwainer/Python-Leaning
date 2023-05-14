@@ -28,7 +28,7 @@ pindutan = Button(bintana,
                   text= "Touch Me More",
                   padx=50,
                   pady=50,
-                  command=pindotMomits) 
+                  command=pindotMomits) ****************
 
 pindutan.grid(row= 2,
               column=3)
