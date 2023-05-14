@@ -4,16 +4,6 @@ from tkinter import *
 
 bintana = Tk()
 
-
-# Input Field Moments
-
-asshole = Entry(bintana, 
-                width=50)
-
-
-asshole.grid(row= 0,
-             column=3)
-
 def pindotMomits():
 
     # to show text, use label widget 
@@ -43,7 +33,14 @@ pindutan = Button(bintana,
 pindutan.grid(row=2,
               column=1)
 
+# Input Field Moments
 
+asshole = Entry(bintana, 
+                width=50)
+
+
+asshole.grid(row= 0,
+             column=3)
 
 
 

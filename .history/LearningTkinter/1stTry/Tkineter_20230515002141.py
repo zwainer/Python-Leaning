@@ -4,16 +4,6 @@ from tkinter import *
 
 bintana = Tk()
 
-
-# Input Field Moments
-
-asshole = Entry(bintana, 
-                width=50)
-
-
-asshole.grid(row= 0,
-             column=3)
-
 def pindotMomits():
 
     # to show text, use label widget 
@@ -21,7 +11,7 @@ def pindotMomits():
              text="Ito yung nilagay mo <3")
 
     sex2 = Label(bintana,
-             text=asshole.get())
+             text=asshole.getText)
 
     #  yung grid system is relative to each other so yep
     # need mag karoon ng 3rd label para mapunta sa 3d colum yung want natin
@@ -43,7 +33,14 @@ pindutan = Button(bintana,
 pindutan.grid(row=2,
               column=1)
 
+# Input Field Moments
 
+asshole = Entry(bintana, 
+                width=50)
+
+
+asshole.grid(row= 0,
+             column=3)
 
 
 
