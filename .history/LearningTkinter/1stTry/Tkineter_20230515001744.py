@@ -31,13 +31,13 @@ pindutan = Button(bintana,
                   command=pindotMomits) 
 
 pindutan.grid(row=2,
-              column=1)
+              column=2)
 
 # Input Field Moments
 
 asshole = Entry(bintana)
-asshole.grid(row= 0,
-             column=3)
+asshole.grid(row= 3,
+             column=0)
 
 
 

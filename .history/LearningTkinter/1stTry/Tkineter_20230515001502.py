@@ -16,7 +16,7 @@ def pindotMomits():
     #  yung grid system is relative to each other so yep
     # need mag karoon ng 3rd label para mapunta sa 3d colum yung want natin
     sex.grid(row=0,
-             column=2)
+             column=0)
 
     sex2.grid(row=1,
              column=2)
@@ -30,16 +30,12 @@ pindutan = Button(bintana,
                   pady=50,
                   command=pindotMomits) 
 
-pindutan.grid(row=2,
-              column=1)
+pindutan.grid(row= 2,
+              column=3)
 
 # Input Field Moments
 
 asshole = Entry(bintana)
-asshole.grid(row= 0,
-             column=3)
-
-
-
-
+bintana.grid(row=3,
+             colum
 bintana.mainloop()
