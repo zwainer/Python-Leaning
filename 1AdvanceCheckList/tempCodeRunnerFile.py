@@ -1,0 +1,1 @@
+Itong fucntion na to is tinitignan nya kung may nagpindot ng check sa checkbox
