@@ -13,8 +13,7 @@ sex = Label(bintana,
 sex2 = Label(bintana,
              text="Masarap ba ang missionary?")
 
-#  yung grid system is relative to each other so yep
-# need mag karoon ng 3rd label para mapunta sa 3d colum yung want natin
+# yung grid system is relative to each other so 
 sex.grid(row=0,
          column=0
 
